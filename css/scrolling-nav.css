@@ -80,24 +80,36 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
+    background: #fff;
+}
+
+.experiences-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
     background: #eee;
 }
 
-.services-section {
+.research-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
+.design-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-
+.connect-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
 
 /*------- MOBILE -------*/
 
@@ -119,6 +131,14 @@ of those sections to manage the look and feel of the site. */
 @media screen and (max-width: 1035px) {
  
 #intro p {
+    min-width: 450px;
+}
+
+
+@media screen and (max-width: 750) {
+ 
+#intro p {
+    width: 80%;
     min-width: 450px;
 }
 

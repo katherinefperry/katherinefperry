@@ -27,6 +27,15 @@ html {
     }
 }
 
+.navbar-brand.page-scroll {
+    font-family: 'GalanoGrotesqueDEMO-Bold';
+}
+
+.nav.navbar-nav li {
+    font-weight: 300;
+}
+
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -43,12 +52,28 @@ of those sections to manage the look and feel of the site. */
 }
 
 #intro h1 {
+    font-family: "GalanoGrotesqueDEMO-Bold";
     background: white;
-    width: 26%;
-    min-width: 125px;
-    margin: 150px auto 15px auto;
+    width: 27%;
+    min-width: 124px;
+    margin: 150px auto 30px auto;
     vertical-align: baseline;
+}
 
+#intro p {
+    background: white;
+    font-size: 1.25em;
+    font-weight: 200;
+    font-style: italic;
+    width: 50%;
+    min-width: 250px;
+    margin: 0 auto 30px auto;
+    padding: 8px;
+}
+
+.btn.btn-default {
+    border-radius: 0;
+    font-family: 'GalanoGrotesqueDEMO-Bold';
 }
 
 .about-section {
@@ -76,12 +101,25 @@ of those sections to manage the look and feel of the site. */
 
 /*------- MOBILE -------*/
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1240px) {
 
 #intro h1 {
-    width: 15%;
-    min-width: 175px;
+    width: 17%;
+    min-width: 194px;
 }
 
+
+#intro p {
+    width: 60%;
+    min-width: 300px;
+}
+
+}
+
+@media screen and (max-width: 1035px) {
+ 
+#intro p {
+    min-width: 450px;
+}
 
 }

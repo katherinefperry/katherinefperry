@@ -148,12 +148,12 @@ of those sections to manage the look and feel of the site. */
 
 #intro p {
     width: 90%;
-    min-width: 310px;
+    min-width: 290px;
     margin: 0 auto 10px auto;
 }
 
 #intro h1 {
-    margin: 60px auto 10px auto;
+    margin: 25px auto 10px auto;
 }
 
 }

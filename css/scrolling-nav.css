@@ -139,7 +139,14 @@ of those sections to manage the look and feel of the site. */
  
 #intro p {
     width: 80%;
-    min-width: 450px;
+    min-width: 725px;
+}
+
+@media screen and (max-width: 320) {
+ 
+#intro p {
+    width: 90%;
+    min-width: 310px;
 }
 
 }

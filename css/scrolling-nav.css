@@ -135,18 +135,24 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-@media screen and (max-width: 750) {
+@media screen and (max-width: 750px) {
  
 #intro p {
     width: 80%;
     min-width: 725px;
 }
 
-@media screen and (max-width: 320) {
- 
+/*------- IPHONE5S -------*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
 #intro p {
     width: 90%;
     min-width: 310px;
+    }
+
+#intro h1 {
+    padding-top: 50px;
 }
 
 }

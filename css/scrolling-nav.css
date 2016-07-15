@@ -52,7 +52,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 #intro h1 {
-    font-family: "GalanoGrotesqueDEMO-Bold";
+    font-family: "GalanoGrotesqueDEMO-Bold", "Helvetica Neue", Helvetica, sans-serif;
     background: white;
     width: 27%;
     min-width: 124px;

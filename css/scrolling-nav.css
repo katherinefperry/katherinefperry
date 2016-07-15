@@ -152,6 +152,10 @@ of those sections to manage the look and feel of the site. */
     margin: 0 auto 10px auto;
 }
 
+.intro-section {
+    padding-top: 25px;
+}
+
 #intro h1 {
     margin: 25px auto 10px auto;
 }

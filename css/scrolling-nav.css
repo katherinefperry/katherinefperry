@@ -202,12 +202,34 @@ of those sections to manage the look and feel of the site. */
     font-weight: 500;
 }
 
+section h1 {
+    padding-top: 25px;
+}
 
 .experience-box li {
     margin: 25px auto;
     width: 90%;
     display: inline;
+}
+
+.well.fulbright {
     float: none;
+    margin-left: 150px;
+}
+
+.well.graphiq {
+    float: none;
+    margin-right: 190px;
+}
+
+.well.white-house {
+    float: none;
+    margin-left: 150px;
+}
+
+.well.city {
+    float: none;
+    margin-right: 190px;
 }
 
 }

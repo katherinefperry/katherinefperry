@@ -202,7 +202,7 @@ of those sections to manage the look and feel of the site. */
     font-weight: 500;
 }
 
-section h1 {
+#about h1, #experiences h1, #research h1, #design h1, #connect h1 {
     padding-top: 25px;
 }
 

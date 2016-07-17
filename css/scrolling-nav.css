@@ -374,20 +374,21 @@ of those sections to manage the look and feel of the site. */
 
 #experiences h1 {
     padding-left: 40px;
+    width: 100%;
 }
 
 .well.fulbright, .well.white-house {
     display: block;
     float: none;
     margin: 10px auto 10px auto;
-    width: 90%;
+    width: 100%;
 }
 
 .well.graphiq, .well.city {
     display: block;
     float: none;
     margin: 10px auto 10px auto;
-    width: 90%;
+    width: 100%;
 }
 
 }

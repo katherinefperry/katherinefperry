@@ -59,8 +59,7 @@ of those sections to manage the look and feel of the site. */
 #intro h1 {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
     background: white;
-    width: 27%;
-    min-width: 124px;
+    width: 315px;
     margin: 300px auto 30px auto;
 }
 
@@ -69,8 +68,8 @@ of those sections to manage the look and feel of the site. */
     font-size: 1.25em;
     font-weight: 200;
     font-style: italic;
-    width: 50%;
-    min-width: 250px;
+    width: 60%;
+    min-width: 450px;
     margin: 0 auto 30px auto;
     padding: 8px;
 }
@@ -136,21 +135,24 @@ of those sections to manage the look and feel of the site. */
 @media screen and (max-width: 1240px) {
 
 #intro h1 {
-    width: 17%;
-    min-width: 194px;
+    width: 315px;
 }
-
 
 #intro p {
     width: 60%;
-    min-width: 300px;
+    min-width: 450px;
 }
 
 }
 
 @media screen and (max-width: 1035px) {
  
+#intro h1 {
+    min-width: 194px;
+}
+
 #intro p {
+    width: 60%;
     min-width: 450px;
 }
 
@@ -158,8 +160,8 @@ of those sections to manage the look and feel of the site. */
 @media screen and (max-width: 775px) {
  
 #intro p {
-    width: 80%;
-    min-width: 725px;
+    width: 60%;
+    min-width: 300px;
 }
 
 /*------- IPHONE5S -------*/

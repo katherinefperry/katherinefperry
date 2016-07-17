@@ -311,37 +311,30 @@ of those sections to manage the look and feel of the site. */
 
 /*------- experiences -------*/
 
-.experiences section {
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 50px;
+.experiences-section {
+    padding-top: 100px;
+}
+
+#experiences {
+    padding-right: 40px;
 }
 
 #experiences h1 {
-    font-weight: 500;
-}
-
-.experience-box ul {
-    list-style: none;
-    width: 60%;
-}
-
-.experience-box li {
-    margin: 25px auto;
+    padding-left: 40px;
 }
 
 .well.fulbright, .well.white-house {
+    display: block;
     float: none;
-    width: 33%;
-    display: inline;
-    margin-left: 150px;
+    margin: 10px auto 10px auto;
+    width: 80%;
 }
 
 .well.graphiq, .well.city {
+    display: block;
     float: none;
-    width: 33%;
-    display: inline;
-    margin-right: 190px;
+    margin: 10px auto 10px auto;
+    width: 80%;
 }
 
 }

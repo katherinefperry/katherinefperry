@@ -100,11 +100,11 @@ of those sections to manage the look and feel of the site. */
 /*------- EXPERIENCE -------*/
 /*--------------------------*/
 
+
 .experiences-section {
     height: 100%;
     padding-top: 60px;
     text-align: center;
-    background: #eee;
 }
 
 #experiences h1 {
@@ -172,6 +172,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    clear: both;
 }
 
 
@@ -299,7 +300,6 @@ of those sections to manage the look and feel of the site. */
 
 .experiences-section {
     padding-top: 45px;
-    height: auto;
     padding-bottom: 50px;
 }
 

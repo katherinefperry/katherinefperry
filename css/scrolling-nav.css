@@ -58,6 +58,7 @@ of those sections to manage the look and feel of the site. */
 
 #intro h1 {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 800;
     background: white;
     width: 315px;
     margin: 300px auto 30px auto;
@@ -77,6 +78,7 @@ of those sections to manage the look and feel of the site. */
 .btn.btn-default {
     border-radius: 0;
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .about-section {
@@ -175,8 +177,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 #intro h1 {
-    font-family: "GalanoGrotesqueDEMO-Bold", "Helvetica Neue", "Helvetica";
-    font-weight: 500;
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
+    font-weight: 800;
     margin: 125px auto 10px auto;
     width: 80%;
 }

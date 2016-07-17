@@ -101,10 +101,11 @@ of those sections to manage the look and feel of the site. */
 /*--------------------------*/
 
 .experiences-section {
-    height: 100%;
+    height: auto;
     padding-top: 60px;
     text-align: center;
     background: #eee;
+    padding-bottom: 50px;
 }
 
 #experiences h1 {
@@ -374,7 +375,7 @@ of those sections to manage the look and feel of the site. */
 
 #experiences h1 {
     padding-left: 40px;
-    width: 100%;
+    width: auto;
 }
 
 .well.fulbright, .well.white-house {

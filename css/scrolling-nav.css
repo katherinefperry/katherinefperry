@@ -110,9 +110,9 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-/*----------------------*/
+/*--------------------------*/
 /*------- EXPERIENCE -------*/
-/*----------------------*/
+/*--------------------------*/
 
 .experiences-section {
     height: 100%;
@@ -151,9 +151,9 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-/*-----------------------------------*/
-/*------- MOBILE OPTIMIZATION -------*/
-/*-----------------------------------*/
+/*---------------------------------*/
+/*------- RESPONSIVE LAYOUT -------*/
+/*---------------------------------*/
 
 @media screen and (max-width: 1272px) {
 
@@ -233,9 +233,15 @@ of those sections to manage the look and feel of the site. */
     font-weight: 500;
 }
 
-#experiences section {
+.experiences section {
     width: 90%;
     margin: 0 auto;
+    padding-top: 50px;
+}
+
+#experiences h1 {
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
+    font-weight: 500;
 }
 
 .experience-box ul {

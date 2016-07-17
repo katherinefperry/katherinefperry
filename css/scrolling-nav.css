@@ -105,6 +105,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 60px;
     text-align: center;
+    background: #eee;
 }
 
 #experiences h1 {
@@ -271,20 +272,24 @@ of those sections to manage the look and feel of the site. */
 
 .well.fulbright, .well.white-house {
     float: left;
-    width: 44.5%;
+    width: 44.8%;
     display: inline;
     margin-left: 15px;
-    margin-right: 8px;
+    margin-right: 5px;
     text-align: left;
 }
 
 .well.graphiq, .well.city {
     float: right;
-    width: 44.5%;
+    width: 44.8%;
     display: inline;
     margin-right: 55px;
-    margin-left: 8px;
+    margin-left: 5px;
     text-align: left;
+}
+
+.loc {
+    display: none;
 }
 
 }

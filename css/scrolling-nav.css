@@ -88,12 +88,6 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.experiences-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
 
 .research-section {
     height: 100%;
@@ -116,9 +110,27 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+/*----------------------*/
+/*------- EXPERIENCE -------*/
+/*----------------------*/
+
+.experiences-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+#experiences h1 {
+    padding-right: -40px;
+}
+
+.listed-experiences {
+    margin: 0 auto;
+}
+
 .experience-box ul {
     list-style: none;
-    width: 60%;
 }
 
 .experience-box li {
@@ -127,35 +139,41 @@ of those sections to manage the look and feel of the site. */
 
 .well.fulbright {
     float: left;
-    width: 33%;
+    width: 35%;
     display: inline;
     margin-left: 150px;
+    margin-right: 12.5px;
 }
 
 .well.graphiq {
     float: right;
-    width: 33%;
+    width: 35%;
     display: inline;
     margin-right: 190px;
+    margin-left: 12.5px;
 }
 
 .well.white-house {
     float: left;
-    width: 33%;
+    width: 35%;
     display: inline;
     margin-left: 150px;
+    margin-right: 12.5px;
 }
 
 .well.city {
     float: right;
-    width: 33%;
+    width: 35%;
     display: inline;
     margin-right: 190px;
+    margin-left: 12.5px;
 }
 
-/*------- MOBILE -------*/
+/*-----------------------------------*/
+/*------- MOBILE OPTIMIZATION -------*/
+/*-----------------------------------*/
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1272px) {
 
 #intro h1 {
     width: 315px;
@@ -166,17 +184,51 @@ of those sections to manage the look and feel of the site. */
     min-width: 450px;
 }
 
+#experiences {
+    padding-right: 40px;
 }
 
-@media screen and (max-width: 1035px) {
- 
-#intro h1 {
-    min-width: 194px;
+#experiences h1 {
+    padding-left: 40px;
 }
 
-#intro p {
-    width: 60%;
-    min-width: 450px;
+.experience-box ul {
+    display: block;
+    float: none;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.well.fulbright {
+    display: block;
+    float: none;
+    margin: 25px auto 25px auto;
+    width: 80%;
+}
+
+.well.graphiq {
+    display: block;
+    float: none;
+    margin: 25px auto 25px auto;
+    width: 80%;
+}
+
+.well.white-house {
+    display: block;
+    float: none;
+    margin: 25px auto 25px auto;
+    width: 80%;
+}
+
+.well.city {
+    display: block;
+    float: none;  
+    margin: 25px auto 25px auto;
+    width: 80%;
+}
+
+
 }
 
 
@@ -185,6 +237,16 @@ of those sections to manage the look and feel of the site. */
 #intro p {
     width: 60%;
     min-width: 300px;
+}
+
+#experiences {
+    padding-right: 40px;
+}
+
+#experiences h1 {
+    padding-left: 40px;
+}
+
 }
 
 /*------- IPHONE5S -------*/
@@ -209,6 +271,46 @@ of those sections to manage the look and feel of the site. */
     font-weight: 500;
 }
 
+#experiences section {
+    width: 90%;
+    margin: 0 auto;
+}
 
+.experience-box ul {
+    list-style: none;
+    width: 60%;
+}
+
+.experience-box li {
+    margin: 25px auto;
+}
+
+.well.fulbright {
+    float: none;
+    width: 33%;
+    display: inline;
+    margin-left: 150px;
+}
+
+.well.graphiq {
+    float: none;
+    width: 33%;
+    display: inline;
+    margin-right: 190px;
+}
+
+.well.white-house {
+    float: none;
+    width: 33%;
+    display: inline;
+    margin-left: 150px;
+}
+
+.well.city {
+    float: none;
+    width: 33%;
+    display: inline;
+    margin-right: 190px;
+}
 
 }

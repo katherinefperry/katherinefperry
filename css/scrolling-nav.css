@@ -376,6 +376,8 @@ of those sections to manage the look and feel of the site. */
 #experiences h1 {
     padding-left: 40px;
     width: auto;
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 .well.fulbright, .well.white-house {

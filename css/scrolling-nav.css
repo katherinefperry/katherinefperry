@@ -118,38 +118,31 @@ of those sections to manage the look and feel of the site. */
 
 .experience-box ul {
     list-style: none;
-    width: 60%;
 }
 
 .experience-box li {
     margin: 25px auto;
+    width: 35%;
+    display: inline;
 }
 
 .well.fulbright {
     float: left;
-    width: 35%;
-    display: inline;
     margin-left: 150px;
 }
 
 .well.graphiq {
     float: right;
-    width: 35%;
-    display: inline;
     margin-right: 190px;
 }
 
 .well.white-house {
     float: left;
-    width: 35%;
-    display: inline;
     margin-left: 150px;
 }
 
 .well.city {
     float: right;
-    width: 35%;
-    display: inline;
     margin-right: 190px;
 }
 
@@ -207,6 +200,14 @@ of those sections to manage the look and feel of the site. */
 .btn.btn-default {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
     font-weight: 500;
+}
+
+
+.experience-box li {
+    margin: 25px auto;
+    width: 90%;
+    display: inline;
+    float: none;
 }
 
 }

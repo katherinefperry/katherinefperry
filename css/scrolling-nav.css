@@ -29,10 +29,13 @@ html {
 
 .navbar-brand.page-scroll {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 .nav.navbar-nav li {
     font-weight: 300;
+    font-style: italic;
+    text-transform: lowercase;
 }
 
 .well {
@@ -99,7 +102,7 @@ of those sections to manage the look and feel of the site. */
 
 .experiences-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     background: #eee;
 }
@@ -107,6 +110,7 @@ of those sections to manage the look and feel of the site. */
 #experiences h1 {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
     font-weight: 500;
+    font-size: 5em;
 }
 
 .experience-box ul {
@@ -214,10 +218,6 @@ of those sections to manage the look and feel of the site. */
 
 /*------- experiences -------*/
 
-.experiences-section {
-    padding-top: 70px;
-}
-
 .well.fulbright, .well.white-house {
     float: left;
     width: 42%;
@@ -243,10 +243,6 @@ of those sections to manage the look and feel of the site. */
 
 @media screen and (max-width: 1125px) {
 
-.experiences-section {
-    padding-top: 60px;
-}
-
 .well.fulbright, .well.white-house {
     float: left;
     width: 43%;
@@ -266,29 +262,33 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-@media screen and (max-width: 961px) {
+@media screen and (max-width: 978px) {
+
+.experiences-section {
+    padding-top: 50px;
+}
 
 .well.fulbright, .well.white-house {
     float: left;
-    width: 38%;
+    width: 44.5%;
     display: inline;
-    margin-left: 60px;
+    margin-left: 15px;
     margin-right: 8px;
     text-align: left;
 }
 
 .well.graphiq, .well.city {
     float: right;
-    width: 38%;
+    width: 44.5%;
     display: inline;
-    margin-right: 100px;
+    margin-right: 55px;
     margin-left: 8px;
     text-align: left;
 }
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
  
 #intro p {
     width: 60%;
@@ -298,7 +298,9 @@ of those sections to manage the look and feel of the site. */
 /*------- experiences -------*/
 
 .experiences-section {
-    padding-top: 100px;
+    padding-top: 45px;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 #experiences {
@@ -312,16 +314,23 @@ of those sections to manage the look and feel of the site. */
 .well.fulbright, .well.white-house {
     display: block;
     float: none;
+    font-size: .9375em;
     margin: 10px auto 10px auto;
-    width: 80%;
+    width: 100%;
 }
 
 .well.graphiq, .well.city {
     display: block;
     float: none;
     margin: 10px auto 10px auto;
-    width: 80%;
+    width: 100%;
 }
+
+
+.fa-ul ul {
+    display: flex;
+}
+
 
 }
 

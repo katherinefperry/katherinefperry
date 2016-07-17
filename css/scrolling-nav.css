@@ -81,6 +81,10 @@ of those sections to manage the look and feel of the site. */
     font-weight: 500;
 }
 
+/*--------------------------*/
+/*------- ABOUT -------*/
+/*--------------------------*/
+
 .about-section {
     height: 100%;
     padding-top: 150px;
@@ -88,27 +92,6 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-
-.research-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.design-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
-.connect-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
 
 /*--------------------------*/
 /*------- EXPERIENCE -------*/
@@ -122,9 +105,9 @@ of those sections to manage the look and feel of the site. */
 }
 
 #experiences h1 {
-    padding-right: -40px;
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
+    font-weight: 500;
 }
-
 
 .experience-box ul {
     list-style: none;
@@ -132,6 +115,7 @@ of those sections to manage the look and feel of the site. */
 
 .experience-box li {
     margin: 25px auto;
+    text-transform: left;
 }
 
 .well.fulbright, .well.white-house {
@@ -140,6 +124,7 @@ of those sections to manage the look and feel of the site. */
     display: inline;
     margin-left: 150px;
     margin-right: 12.5px;
+    text-align: left;
 }
 
 .well.graphiq, .well.city {
@@ -148,6 +133,48 @@ of those sections to manage the look and feel of the site. */
     display: inline;
     margin-right: 190px;
     margin-left: 12.5px;
+    text-align: left;
+}
+
+.desc {
+    text-align: left;
+
+}
+
+
+/*------------------------*/
+/*------- RESEARCH -------*/
+/*------------------------*/
+
+.research-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+
+/*----------------------*/
+/*------- DESIGN -------*/
+/*----------------------*/
+
+.design-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+
+/*-----------------------*/
+/*------- CONNECT -------*/
+/*-----------------------*/
+
+.connect-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
 }
 
 
@@ -155,7 +182,9 @@ of those sections to manage the look and feel of the site. */
 /*------- RESPONSIVE LAYOUT -------*/
 /*---------------------------------*/
 
-@media screen and (max-width: 1272px) {
+@media screen and (max-width: 1290px) {
+
+/*------- intro -------*/
 
 #intro h1 {
     width: 315px;
@@ -166,6 +195,64 @@ of those sections to manage the look and feel of the site. */
     min-width: 450px;
 }
 
+/*------- experiences -------*/
+
+
+.well.fulbright, .well.white-house {
+    float: left;
+    width: 38%;
+    display: inline;
+    margin-left: 80px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.well.graphiq, .well.city {
+    float: right;
+    width: 38%;
+    display: inline;
+    margin-right: 120px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+
+}
+
+
+@media screen and (max-width: 961px) {
+
+.well.fulbright, .well.white-house {
+    float: left;
+    width: 38%;
+    display: inline;
+    margin-left: 60px;
+    margin-right: 8px;
+    text-align: left;
+}
+
+.well.graphiq, .well.city {
+    float: right;
+    width: 38%;
+    display: inline;
+    margin-right: 100px;
+    margin-left: 8px;
+    text-align: left;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+ 
+#intro p {
+    width: 60%;
+    min-width: 300px;
+}
+
+/*------- experiences -------*/
+
 #experiences {
     padding-right: 40px;
 }
@@ -177,43 +264,28 @@ of those sections to manage the look and feel of the site. */
 .well.fulbright, .well.white-house {
     display: block;
     float: none;
-    margin: 25px auto 25px auto;
+    margin: 10px auto 10px auto;
     width: 80%;
 }
 
 .well.graphiq, .well.city {
     display: block;
     float: none;
-    margin: 25px auto 25px auto;
+    margin: 10px auto 10px auto;
     width: 80%;
 }
 
-
 }
 
 
-@media screen and (max-width: 775px) {
- 
-#intro p {
-    width: 60%;
-    min-width: 300px;
-}
-
-#experiences {
-    padding-right: 40px;
-}
-
-#experiences h1 {
-    padding-left: 40px;
-}
-
-}
 
 /*---------------------------------------------*/
 /*------- MOBILE OPTIMIZATION: IPHONE5; -------*/
 /*---------------------------------------------*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+/*------- intro -------*/
 
 #intro p {
     width: 80%;
@@ -222,16 +294,18 @@ of those sections to manage the look and feel of the site. */
 }
 
 #intro h1 {
-    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, sans-serif;
     font-weight: 800;
     margin: 125px auto 10px auto;
     width: 80%;
 }
 
 .btn.btn-default {
-    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
-    font-weight: 500;
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, sans-serif;
+    font-weight: 800;
 }
+
+/*------- experiences -------*/
 
 .experiences section {
     width: 90%;
@@ -240,7 +314,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 #experiences h1 {
-    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
     font-weight: 500;
 }
 

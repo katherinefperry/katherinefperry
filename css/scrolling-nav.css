@@ -169,12 +169,14 @@ of those sections to manage the look and feel of the site. */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 
 #intro p {
-    width: 90%;
+    width: 80%;
     min-width: 290px;
     margin: 0 auto 10px auto;
 }
 
 #intro h1 {
+    font-family: "GalanoGrotesqueDEMO-Bold", "Helvetica Neue", "Helvetica";
+    font-weight: 500;
     margin: 125px auto 10px auto;
     width: 80%;
 }

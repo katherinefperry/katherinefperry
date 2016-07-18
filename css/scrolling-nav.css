@@ -29,6 +29,7 @@ html {
 
 .navbar-brand.page-scroll {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -382,7 +383,7 @@ of those sections to manage the look and feel of the site. */
     width: auto;
     font-size: 2em;
     font-weight: 800;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .well.fulbright, .well.white-house {

@@ -51,7 +51,7 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    background: url(https://c1.staticflickr.com/9/8842/28303627751_59cf7a00bd_o.jpg) bottom right;
+    background: url(https://c1.staticflickr.com/9/8676/28291884156_ca2a7ed8aa_o.jpg) top center;
     background-size: cover;
     opacity: 45%;
     color: black;
@@ -62,19 +62,20 @@ of those sections to manage the look and feel of the site. */
 
 #intro h1 {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.5em;
     font-weight: 800;
-    background: none;
-    color: white;
+    background: white;
+    color: black;
     width: 315px;
-    margin: 300px auto 30px auto;
+    margin: 250px auto 30px auto;
 }
 
 #intro p {
-    background: none;
-    color: white;
+    background: white;
+    color: black;
     font-size: 1.25em;
-    font-weight: 200;
     font-style: italic;
+    font-weight: 300;
     width: 60%;
     min-width: 450px;
     margin: 0 auto 30px auto;

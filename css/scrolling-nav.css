@@ -93,10 +93,62 @@ of those sections to manage the look and feel of the site. */
 /*---------------------*/
 
 .about-section {
+    background: none;
     height: 100%;
-    padding-top: 150px;
+    margin: 0 auto;
+    padding-top: 60px;
     text-align: center;
-    background: #fff;
+}
+
+#about h1 {
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
+    font-weight: 800;
+    font-size: 4em;
+    margin: 3% auto 3% auto;
+}
+
+#about img {
+    float: left;
+    height: 25%;
+    margin: 0 2% 0 15%;
+    width: 25%;
+    
+    
+}
+
+#about p {
+    float: right;
+    text-align: left;
+    line-height: 2em;
+    font-family: Raleway, "Helvetica Neue", "Helvetica";
+    font-size: fit-width;
+    font-weight: 300;
+    margin: 0 15% 0 0;
+}
+
+#about p:first-letter {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.skills {
+    margin: 7% auto;
+}
+
+.skills li {
+    list-style: none;
+    display: inline;
+    margin: 0 1.5% 0 1.5%;
+    font-style: italic;
+}
+
+.skills li:first-child {
+    font-weight: bold;
+    margin-left: -40px;
+}
+
+.skills li:last-child {
+    margin-right: 0;
 }
 
 

@@ -106,16 +106,16 @@ of those sections to manage the look and feel of the site. */
 
 
 .experiences-section {
-    height: 100%;
+    height: auto;
     padding-top: 60px;
     text-align: center;
-    background: #eee;
+    background: none;
 }
 
 #experiences h1 {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", "Helvetica";
     font-weight: 800;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .experience-box ul {
@@ -224,6 +224,10 @@ of those sections to manage the look and feel of the site. */
 
 /*------- experiences -------*/
 
+#experiences h1 {
+    margin: 3px 0 -1px 0;
+}
+
 .well.fulbright, .well.white-house {
     float: left;
     width: 42%;
@@ -249,6 +253,10 @@ of those sections to manage the look and feel of the site. */
 
 @media screen and (max-width: 1125px) {
 
+#experiences h1 {
+    margin: -3px 0 -1px 0;
+}
+
 .well.fulbright, .well.white-house {
     float: left;
     width: 43%;
@@ -269,6 +277,10 @@ of those sections to manage the look and feel of the site. */
 
 
 @media screen and (max-width: 978px) {
+
+#experiences h1 {
+    margin: 7px 0 5px 0;
+}
 
 .experiences-section {
     padding-top: 50px;
@@ -318,6 +330,7 @@ of those sections to manage the look and feel of the site. */
 
 #experiences h1 {
     padding-left: 40px;
+    margin: 10px 0 0 0;
 }
 
 .well.fulbright, .well.white-house {

@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
 body {
     width: 100%;
     height: 100%;
@@ -28,8 +29,9 @@ html {
 }
 
 .navbar-brand.page-scroll {
-    font-family: "Campton-BoldDEMO", Raleway, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 800;
+    font-family: "GalanoGrotesqueDEMO-Bold", Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal, 800;
+    font-style: normal;
     text-transform: uppercase;
 }
 

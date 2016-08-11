@@ -98,6 +98,7 @@ of those sections to manage the look and feel of the site. */
     margin: 0 auto;
     padding-top: 60px;
     text-align: center;
+    width: 95%;
 }
 
 #about h1 {
@@ -109,11 +110,9 @@ of those sections to manage the look and feel of the site. */
 
 #about img {
     float: left;
-    height: 25%;
-    margin: 0 2% 0 15%;
-    width: 25%;
-    
-    
+    height: 30%;
+    margin: 0 2% 0 2%;
+    width: 30%; 
 }
 
 #about p {
@@ -121,9 +120,11 @@ of those sections to manage the look and feel of the site. */
     text-align: left;
     line-height: 2em;
     font-family: Raleway, "Helvetica Neue", "Helvetica";
-    font-size: fit-width;
     font-weight: 300;
-    margin: 0 15% 0 0;
+}
+
+#about .paragraph {
+    width: 100%;
 }
 
 #about p:first-letter {
@@ -131,26 +132,21 @@ of those sections to manage the look and feel of the site. */
     font-weight: 800;
 }
 
-.skills {
-    margin: 7% auto;
+table {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.skills li {
-    list-style: none;
-    display: inline;
-    margin: 0 1.5% 0 1.5%;
-    font-style: italic;
+table th {
+    font-weight: 800;
+    padding-top: 4%;
+    padding-bottom: .5%;
 }
 
-.skills li:first-child {
-    font-weight: bold;
-    margin-left: -40px;
+table td {
+    font-weight: 300;
+    text-align: left;
 }
-
-.skills li:last-child {
-    margin-right: 0;
-}
-
 
 /*--------------------------*/
 /*------- EXPERIENCE -------*/

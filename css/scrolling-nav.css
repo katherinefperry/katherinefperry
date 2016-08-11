@@ -125,6 +125,8 @@ of those sections to manage the look and feel of the site. */
 
 #about .paragraph {
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #about p:first-letter {
@@ -147,6 +149,7 @@ table td {
     font-weight: 300;
     text-align: left;
 }
+
 
 /*--------------------------*/
 /*------- EXPERIENCE -------*/
@@ -251,6 +254,17 @@ table td {
     text-align: center;
     background: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*---------------------------------*/
@@ -405,6 +419,23 @@ table td {
 }
 
 
+@media screen and (max-width: 670px) {
+
+#about img {
+    display: none;
+}
+
+#about .paragraph {
+    width: 85%;
+}
+
+td, th {
+    padding-bottom: 2%;
+}
+
+}
+
+}
 
 /*---------------------------------------------*/
 /*------- MOBILE OPTIMIZATION: IPHONE5; -------*/

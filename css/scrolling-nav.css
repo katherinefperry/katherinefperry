@@ -114,15 +114,19 @@ of those sections to manage the look and feel of the site. */
     float: left;
     height: 30%;
     margin: 0 2% 0 2%;
-    width: 30%; 
+    width: 30%;
 }
 
 #about p {
     float: right;
+    font-size: 1.25em;
     text-align: left;
     line-height: 2em;
     font-family: Raleway, "Helvetica Neue", "Helvetica";
     font-weight: 300;
+    padding: 2%;
+    border: 3px solid #000;
+    border-radius: 5px;
 }
 
 #about .paragraph {
@@ -137,8 +141,12 @@ of those sections to manage the look and feel of the site. */
 }
 
 table {
-    width: 80%;
     margin: 0 auto;
+    max-width: 750px;
+    min-width: 600px;
+    padding-left: 15%;
+    text-align: center;
+    width: 80%;
 }
 
 table th {
@@ -150,6 +158,11 @@ table th {
 table td {
     font-weight: 300;
     text-align: left;
+    width: auto;
+}
+
+#about .tables {
+
 }
 
 

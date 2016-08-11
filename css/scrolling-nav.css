@@ -180,7 +180,7 @@ table td {
     text-transform: left;
 }
 
-.well.fulbright, .well.white-house {
+.well.fulbright, .well.graphiq {
     float: left;
     width: 38%;
     display: inline;
@@ -189,7 +189,7 @@ table td {
     text-align: left;
 }
 
-.well.graphiq, .well.city {
+.well.white-house, .well.city {
     float: right;
     width: 38%;
     display: inline;
@@ -293,7 +293,7 @@ table td {
     margin: 3px 0 -1px 0;
 }
 
-.well.fulbright, .well.white-house {
+.well.fulbright, .well.graphiq {
     float: left;
     width: 42%;
     display: inline;
@@ -303,7 +303,7 @@ table td {
     text-align: left;
 }
 
-.well.graphiq, .well.city {
+.well.white-house, .well.city {
     float: right;
     width: 42%;
     display: inline;
@@ -326,7 +326,7 @@ table td {
     margin: -3px 0 -1px 0;
 }
 
-.well.fulbright, .well.white-house {
+.well.fulbright, .well.graphiq {
     float: left;
     width: 43%;
     display: inline;
@@ -334,7 +334,7 @@ table td {
     text-align: left;
 }
 
-.well.graphiq, .well.city {
+.well.white-house, .well.city {
     float: right;
     width: 43%;
     display: inline;
@@ -345,7 +345,7 @@ table td {
 }
 
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 985px) {
 
 #intro h1 {
     margin-top: 25%;
@@ -359,7 +359,7 @@ table td {
     padding-top: 50px;
 }
 
-.well.fulbright, .well.white-house {
+.well.fulbright, .well.graphiq {
     float: left;
     width: 44.8%;
     display: inline;
@@ -368,7 +368,7 @@ table td {
     text-align: left;
 }
 
-.well.graphiq, .well.city {
+.well.white-house, .well.city {
     float: right;
     width: 44.8%;
     display: inline;
@@ -409,7 +409,7 @@ table td {
     margin: 10px 0 0 0;
 }
 
-.well.fulbright, .well.white-house {
+.well.fulbright, .well.graphiq {
     display: block;
     float: none;
     font-size: .9375em;
@@ -417,7 +417,7 @@ table td {
     width: 100%;
 }
 
-.well.graphiq, .well.city {
+.well.white-house, .well.city {
     display: block;
     float: none;
     margin: 10px auto 10px auto;
@@ -495,14 +495,14 @@ td, th {
     text-transform: lowercase;
 }
 
-.well.fulbright, .well.white-house {
+.well.fulbright, .well.graphiq {
     display: block;
     float: none;
     margin: 10px auto 10px auto;
     width: 100%;
 }
 
-.well.graphiq, .well.city {
+.well.white-house, .well.city {
     display: block;
     float: none;
     margin: 10px auto 10px auto;

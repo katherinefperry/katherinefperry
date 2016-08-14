@@ -165,6 +165,9 @@ table td {
 
 }
 
+.tables-small {
+    display: none;
+}
 
 /*--------------------------*/
 /*------- EXPERIENCE -------*/
@@ -456,10 +459,15 @@ table td {
     width: 85%;
 }
 
-td, th {
-    padding-bottom: 2%;
+
+.tables-small {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
+.tables {
+    display: none;
 }
 
 }

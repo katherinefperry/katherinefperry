@@ -169,6 +169,14 @@ table td {
     display: none;
 }
 
+.tables-stacked-interests {
+    display: none;
+}
+
+.tables-stacked-skills {
+    display: none;
+}
+
 /*--------------------------*/
 /*------- EXPERIENCE -------*/
 /*--------------------------*/
@@ -470,7 +478,44 @@ table td {
     display: none;
 }
 
+.tables-stacked-interests {
+    display: none;
 }
+
+.tables-stacked-skills {
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 580px) {
+
+/*------- about -------*/
+
+.chart {
+    width: 410px;
+}
+
+.tables-stacked-interests, .tables-stacked-skills {
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.tables-small {
+    display: block;
+    margin: 0 auto 0 10%;
+    width: 60%;
+}
+
+.a {
+    min-width: 140px;
+    width: 150px;
+    max-width: 150px;
+}
+
+}
+
 
 /*---------------------------------------------*/
 /*------- MOBILE OPTIMIZATION: IPHONE5; -------*/
@@ -496,6 +541,18 @@ table td {
 .btn.btn-default {
     font-family: "GalanoGrotesqueDEMO-Bold", Raleway, sans-serif;
     font-weight: 800;
+}
+
+/*------- about -------*/
+
+
+.tables-stacked-interests, .tables-stacked-skills {
+    display: block;
+    font-size: 2em;
+}
+
+.tables-small {
+    display: none;
 }
 
 /*------- experiences -------*/

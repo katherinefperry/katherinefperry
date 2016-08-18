@@ -493,6 +493,7 @@ table td {
 
 .chart {
     width: 410px;
+<<<<<<< HEAD
 }
 
 .tables-stacked-interests, .tables-stacked-skills {
@@ -513,6 +514,28 @@ table td {
     max-width: 150px;
 }
 
+=======
+}
+
+.tables-stacked-interests, .tables-stacked-skills {
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.tables-small {
+    display: block;
+    margin: 0 auto 0 10%;
+    width: 60%;
+}
+
+.a {
+    min-width: 140px;
+    width: 150px;
+    max-width: 150px;
+}
+
+>>>>>>> parent of e7501e5... No clue what I'm doing, but I think I'm committing new css
 }
 
 
@@ -527,6 +550,10 @@ table td {
 .intro-section {
     background: url(https://c1.staticflickr.com/9/8579/28312003635_edb5869b56_o.jpg) bottom right;
     background-size: cover;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> parent of e7501e5... No clue what I'm doing, but I think I'm committing new css
 
 #intro p {
     width: 80%;
